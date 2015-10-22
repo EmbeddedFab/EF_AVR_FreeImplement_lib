@@ -1,0 +1,829 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodqi4.o)
+                              ./main.o (__udivmodqi4)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                              ./MCAL/EF_UART.o (__do_copy_data)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                              ./MCAL/EF_SpechialTIMER.o (__do_clear_bss)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              ./main.o (itoa)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(itoa.o) (strrev)
+c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+                              c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(itoa.o) (__udivmodhi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+Hours               0x1               ./main.o
+string              0x5               ./main.o
+temp                0x2               ./main.o
+Mintes              0x1               ./main.o
+ReturnFromGetPosition
+                    0x1               ./HAL/EF_SkyLabGPS.o
+Seconds             0x1               ./main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+LOAD ./MCAL/EF_ADC.o
+LOAD ./MCAL/EF_DIO.o
+LOAD ./MCAL/EF_EEPROM.o
+LOAD ./MCAL/EF_I2C.o
+LOAD ./MCAL/EF_InputCapture.o
+LOAD ./MCAL/EF_PWM.o
+LOAD ./MCAL/EF_SPI.o
+LOAD ./MCAL/EF_SpechialTIMER.o
+LOAD ./MCAL/EF_Timer.o
+LOAD ./MCAL/EF_UART.o
+LOAD ./HAL/EF_7Segment.o
+LOAD ./HAL/EF_Bluetooth.o
+LOAD ./HAL/EF_DS1307.o
+LOAD ./HAL/EF_E2PROM_24C16.o
+LOAD ./HAL/EF_ESP8266.o
+LOAD ./HAL/EF_Keypad.o
+LOAD ./HAL/EF_LCD.o
+LOAD ./HAL/EF_SkyLabGPS.o
+LOAD ./HAL/EF_UltraSonic.o
+LOAD ./HAL/EF_Wavecom.o
+LOAD ./HAL/EF_nRF2401.o
+LOAD ./main.o
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x4e4
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_2
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./MCAL/EF_ADC.o
+ .text          0x00000092        0x0 ./MCAL/EF_DIO.o
+ .text          0x00000092        0x0 ./MCAL/EF_EEPROM.o
+ .text          0x00000092        0x0 ./MCAL/EF_I2C.o
+ .text          0x00000092        0x0 ./MCAL/EF_InputCapture.o
+ .text          0x00000092        0x0 ./MCAL/EF_PWM.o
+ .text          0x00000092        0x0 ./MCAL/EF_SPI.o
+ .text          0x00000092        0x0 ./MCAL/EF_SpechialTIMER.o
+ .text          0x00000092        0x0 ./MCAL/EF_Timer.o
+ .text          0x00000092        0x0 ./MCAL/EF_UART.o
+ .text          0x00000092        0x0 ./HAL/EF_7Segment.o
+ .text          0x00000092        0x0 ./HAL/EF_Bluetooth.o
+ .text          0x00000092        0x0 ./HAL/EF_DS1307.o
+ .text          0x00000092        0x0 ./HAL/EF_E2PROM_24C16.o
+ .text          0x00000092        0x0 ./HAL/EF_ESP8266.o
+ .text          0x00000092        0x0 ./HAL/EF_Keypad.o
+ .text          0x00000092        0x0 ./HAL/EF_LCD.o
+ .text          0x00000092        0x0 ./HAL/EF_SkyLabGPS.o
+ .text          0x00000092        0x0 ./HAL/EF_UltraSonic.o
+ .text          0x00000092        0x0 ./HAL/EF_Wavecom.o
+ .text          0x00000092        0x0 ./HAL/EF_nRF2401.o
+ .text          0x00000092        0x0 ./main.o
+ .text          0x00000092        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000092        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092       0x42 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x00000092                itoa
+ .text          0x000000d4       0x20 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x000000d4                strrev
+ .text          0x000000f4        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x000000f4                . = ALIGN (0x2)
+ *(.text.*)
+ .text.EF_void_ADC_init
+                0x000000f4        0x2 ./MCAL/EF_ADC.o
+                0x000000f4                EF_void_ADC_init
+ .text.EF_u16_ADC_read
+                0x000000f6        0x2 ./MCAL/EF_ADC.o
+                0x000000f6                EF_u16_ADC_read
+ .text.EF_S8_DIO_InitPort
+                0x000000f8        0x2 ./MCAL/EF_DIO.o
+                0x000000f8                EF_S8_DIO_InitPort
+ .text.EF_S8_DIO_WritePort
+                0x000000fa        0x2 ./MCAL/EF_DIO.o
+                0x000000fa                EF_S8_DIO_WritePort
+ .text.EF_S16_DIO_ReadPort
+                0x000000fc        0x2 ./MCAL/EF_DIO.o
+                0x000000fc                EF_S16_DIO_ReadPort
+ .text.EF_B_DIO_InitPin
+                0x000000fe        0x2 ./MCAL/EF_DIO.o
+                0x000000fe                EF_B_DIO_InitPin
+ .text.EF_S8_DIO_SetPin
+                0x00000100        0x2 ./MCAL/EF_DIO.o
+                0x00000100                EF_S8_DIO_SetPin
+ .text.EF_S8_DIO_ClearPin
+                0x00000102        0x2 ./MCAL/EF_DIO.o
+                0x00000102                EF_S8_DIO_ClearPin
+ .text.EF_S8_DIO_SetPort
+                0x00000104        0x2 ./MCAL/EF_DIO.o
+                0x00000104                EF_S8_DIO_SetPort
+ .text.EF_S8_DIO_ClearPort
+                0x00000106        0x2 ./MCAL/EF_DIO.o
+                0x00000106                EF_S8_DIO_ClearPort
+ .text.EF_S8_DIO_TogglePin
+                0x00000108        0x2 ./MCAL/EF_DIO.o
+                0x00000108                EF_S8_DIO_TogglePin
+ .text.EF_S8_DIO_CheckPin
+                0x0000010a        0x2 ./MCAL/EF_DIO.o
+                0x0000010a                EF_S8_DIO_CheckPin
+ .text.EF_void_EEPROM_WriteByte
+                0x0000010c        0x2 ./MCAL/EF_EEPROM.o
+                0x0000010c                EF_void_EEPROM_WriteByte
+ .text.EF_u8_EPROM_ReadByte
+                0x0000010e        0x2 ./MCAL/EF_EEPROM.o
+                0x0000010e                EF_u8_EPROM_ReadByte
+ .text.EF_void_EEPROM_WriteNBytes
+                0x00000110        0x2 ./MCAL/EF_EEPROM.o
+                0x00000110                EF_void_EEPROM_WriteNBytes
+ .text.EF_void_EEPROM_ReadNBytes
+                0x00000112        0x2 ./MCAL/EF_EEPROM.o
+                0x00000112                EF_void_EEPROM_ReadNBytes
+ .text.EF_void_EEPROM_Erase
+                0x00000114        0x2 ./MCAL/EF_EEPROM.o
+                0x00000114                EF_void_EEPROM_Erase
+ .text.EF_void_I2C_Write
+                0x00000116        0x2 ./MCAL/EF_I2C.o
+                0x00000116                EF_void_I2C_Write
+ .text.EF_void_I2C_Start
+                0x00000118        0x2 ./MCAL/EF_I2C.o
+                0x00000118                EF_void_I2C_Start
+ .text.EF_void_I2C_Stop
+                0x0000011a        0x2 ./MCAL/EF_I2C.o
+                0x0000011a                EF_void_I2C_Stop
+ .text.EF_void_I2C_Init
+                0x0000011c        0x2 ./MCAL/EF_I2C.o
+                0x0000011c                EF_void_I2C_Init
+ .text.EF_U8_I2C_Read_Byte
+                0x0000011e        0x2 ./MCAL/EF_I2C.o
+                0x0000011e                EF_U8_I2C_Read_Byte
+ .text.EF_void_InputCapture_Init
+                0x00000120        0x2 ./MCAL/EF_InputCapture.o
+                0x00000120                EF_void_InputCapture_Init
+ .text.EF_BOOLEAN_InputCapture_GetPulse
+                0x00000122        0x2 ./MCAL/EF_InputCapture.o
+                0x00000122                EF_BOOLEAN_InputCapture_GetPulse
+ .text.EF_BOOLEAN_InputCapture_GetPeriod
+                0x00000124        0x2 ./MCAL/EF_InputCapture.o
+                0x00000124                EF_BOOLEAN_InputCapture_GetPeriod
+ .text.EF_void_PWM_init
+                0x00000126        0x2 ./MCAL/EF_PWM.o
+                0x00000126                EF_void_PWM_init
+ .text.EF_void_PWM_SetDutyValue
+                0x00000128        0x2 ./MCAL/EF_PWM.o
+                0x00000128                EF_void_PWM_SetDutyValue
+ .text.EF_void_PWM_SetDutyCycle
+                0x0000012a        0x2 ./MCAL/EF_PWM.o
+                0x0000012a                EF_void_PWM_SetDutyCycle
+ .text.EF_SpiInit
+                0x0000012c        0x2 ./MCAL/EF_SPI.o
+                0x0000012c                EF_SpiInit
+ .text.EF_SpiTransfer
+                0x0000012e        0x2 ./MCAL/EF_SPI.o
+                0x0000012e                EF_SpiTransfer
+ .text.EF_void_SPI_TransferArray
+                0x00000130        0x2 ./MCAL/EF_SPI.o
+                0x00000130                EF_void_SPI_TransferArray
+ .text.EF_BOOLEAN_SpiTransfer
+                0x00000132        0x2 ./MCAL/EF_SPI.o
+                0x00000132                EF_BOOLEAN_SpiTransfer
+ .text.EF_void_TimerISRCallback
+                0x00000134       0x46 ./MCAL/EF_SpechialTIMER.o
+ .text.EF_void_TimerDelete
+                0x0000017a       0x22 ./MCAL/EF_SpechialTIMER.o
+                0x0000017a                EF_void_TimerDelete
+ .text.EF_void_TimerCreate
+                0x0000019c       0x2a ./MCAL/EF_SpechialTIMER.o
+                0x0000019c                EF_void_TimerCreate
+ .text.EF_void_TimersUpdate
+                0x000001c6       0x46 ./MCAL/EF_SpechialTIMER.o
+                0x000001c6                EF_void_TimersUpdate
+ .text.EF_BOOLEAN_TimerCheck
+                0x0000020c       0x20 ./MCAL/EF_SpechialTIMER.o
+                0x0000020c                EF_BOOLEAN_TimerCheck
+ .text.EF_void_TimerStart
+                0x0000022c       0x22 ./MCAL/EF_SpechialTIMER.o
+                0x0000022c                EF_void_TimerStart
+ .text.EF_void_TimerStop
+                0x0000024e       0x18 ./MCAL/EF_SpechialTIMER.o
+                0x0000024e                EF_void_TimerStop
+ .text.EF_void_TimerReset
+                0x00000266       0x1a ./MCAL/EF_SpechialTIMER.o
+                0x00000266                EF_void_TimerReset
+ .text.EF_void_TimerInit
+                0x00000280       0x38 ./MCAL/EF_SpechialTIMER.o
+                0x00000280                EF_void_TimerInit
+ .text.EF_void_Timer_PORTinit
+                0x000002b8        0x2 ./MCAL/EF_Timer.o
+                0x000002b8                EF_void_Timer_PORTinit
+ .text.EF_void_Timer_SetISRCallBack
+                0x000002ba        0x2 ./MCAL/EF_Timer.o
+                0x000002ba                EF_void_Timer_SetISRCallBack
+ .text.EF_void_Timer_RemoveTimerISRCallBack
+                0x000002bc        0x2 ./MCAL/EF_Timer.o
+                0x000002bc                EF_void_Timer_RemoveTimerISRCallBack
+ .text.__vector_5
+                0x000002be       0x14 ./MCAL/EF_Timer.o
+                0x000002be                __vector_5
+ .text.EF_void_UART_Init
+                0x000002d2        0x2 ./MCAL/EF_UART.o
+                0x000002d2                EF_void_UART_Init
+ .text.EF_BOOLEAN_UART_GetChar
+                0x000002d4        0x2 ./MCAL/EF_UART.o
+                0x000002d4                EF_BOOLEAN_UART_GetChar
+ .text.EF_BOOLEAN_UART_CheckForRxData
+                0x000002d6        0x2 ./MCAL/EF_UART.o
+                0x000002d6                EF_BOOLEAN_UART_CheckForRxData
+ .text.EF_BOOLEAN_UART_PutChar
+                0x000002d8        0x2 ./MCAL/EF_UART.o
+                0x000002d8                EF_BOOLEAN_UART_PutChar
+ .text.EF_u8_UART_WaitChar
+                0x000002da        0x2 ./MCAL/EF_UART.o
+                0x000002da                EF_u8_UART_WaitChar
+ .text.EF_void_UART_PutChar
+                0x000002dc        0x2 ./MCAL/EF_UART.o
+                0x000002dc                EF_void_UART_PutChar
+ .text.EF_void_UART_SendArray
+                0x000002de        0x2 ./MCAL/EF_UART.o
+                0x000002de                EF_void_UART_SendArray
+ .text.EF_void_UART_HextoASCII
+                0x000002e0        0x2 ./MCAL/EF_UART.o
+                0x000002e0                EF_void_UART_HextoASCII
+ .text.EF_void_Segment_Init
+                0x000002e2        0x2 ./HAL/EF_7Segment.o
+                0x000002e2                EF_void_Segment_Init
+ .text.EF_void_Segment_Display
+                0x000002e4        0x2 ./HAL/EF_7Segment.o
+                0x000002e4                EF_void_Segment_Display
+ .text.EF_BOOLEAN_Bluetooth_ModuleInit
+                0x000002e6        0x2 ./HAL/EF_Bluetooth.o
+                0x000002e6                EF_BOOLEAN_Bluetooth_ModuleInit
+ .text.EF_BOOLEAN_Bluetooth_MasterScan
+                0x000002e8        0x2 ./HAL/EF_Bluetooth.o
+                0x000002e8                EF_BOOLEAN_Bluetooth_MasterScan
+ .text.EF_BOOLEAN_Bluetooth_MasterConnect
+                0x000002ea        0x2 ./HAL/EF_Bluetooth.o
+                0x000002ea                EF_BOOLEAN_Bluetooth_MasterConnect
+ .text.EF_BOOLEAN_Bluetooth_DisConnect
+                0x000002ec        0x2 ./HAL/EF_Bluetooth.o
+                0x000002ec                EF_BOOLEAN_Bluetooth_DisConnect
+ .text.EF_u8_Bluetooth_GetModuleStatus
+                0x000002ee        0x2 ./HAL/EF_Bluetooth.o
+                0x000002ee                EF_u8_Bluetooth_GetModuleStatus
+ .text.EF_BOOLEAN_Bluetooth_SendData
+                0x000002f0        0x2 ./HAL/EF_Bluetooth.o
+                0x000002f0                EF_BOOLEAN_Bluetooth_SendData
+ .text.EF_BOOLEAN_Bluetooth_GetDataIfExist
+                0x000002f2        0x2 ./HAL/EF_Bluetooth.o
+                0x000002f2                EF_BOOLEAN_Bluetooth_GetDataIfExist
+ .text.EF_void_DS1307_Init
+                0x000002f4        0x2 ./HAL/EF_DS1307.o
+                0x000002f4                EF_void_DS1307_Init
+ .text.EF_void_DS1307_SetTime
+                0x000002f6        0x2 ./HAL/EF_DS1307.o
+                0x000002f6                EF_void_DS1307_SetTime
+ .text.EF_void_DS1307_SetDate
+                0x000002f8        0x2 ./HAL/EF_DS1307.o
+                0x000002f8                EF_void_DS1307_SetDate
+ .text.EF_void_DS1307_GetTime
+                0x000002fa        0x2 ./HAL/EF_DS1307.o
+                0x000002fa                EF_void_DS1307_GetTime
+ .text.EF_void_DS1307_GetDate
+                0x000002fc        0x2 ./HAL/EF_DS1307.o
+                0x000002fc                EF_void_DS1307_GetDate
+ .text.EF_void_EEPROM24C16_Init
+                0x000002fe        0x2 ./HAL/EF_E2PROM_24C16.o
+                0x000002fe                EF_void_EEPROM24C16_Init
+ .text.EF_void_EEPROM24C16_Write_Byte
+                0x00000300        0x2 ./HAL/EF_E2PROM_24C16.o
+                0x00000300                EF_void_EEPROM24C16_Write_Byte
+ .text.EF_void_EEPROM24C16_Read_Byte
+                0x00000302        0x2 ./HAL/EF_E2PROM_24C16.o
+                0x00000302                EF_void_EEPROM24C16_Read_Byte
+ .text.EF_BOOLEAN_ESP8266_InitModule
+                0x00000304        0x2 ./HAL/EF_ESP8266.o
+                0x00000304                EF_BOOLEAN_ESP8266_InitModule
+ .text.EF_BOOLEAN_ESP8266_JoinAP
+                0x00000306        0x2 ./HAL/EF_ESP8266.o
+                0x00000306                EF_BOOLEAN_ESP8266_JoinAP
+ .text.EF_BOOLEAN_ESP8266_SetIp
+                0x00000308        0x2 ./HAL/EF_ESP8266.o
+                0x00000308                EF_BOOLEAN_ESP8266_SetIp
+ .text.EF_BOOLEAN_ESP8266_OpenServer
+                0x0000030a        0x2 ./HAL/EF_ESP8266.o
+                0x0000030a                EF_BOOLEAN_ESP8266_OpenServer
+ .text.EF_BOOLEAN_ESP8266_CreateAcessPoint
+                0x0000030c        0x2 ./HAL/EF_ESP8266.o
+                0x0000030c                EF_BOOLEAN_ESP8266_CreateAcessPoint
+ .text.EF_BOOLEAN_ESP8266_SendToServer
+                0x0000030e        0x2 ./HAL/EF_ESP8266.o
+                0x0000030e                EF_BOOLEAN_ESP8266_SendToServer
+ .text.EF_BOOLEAN_ESP8266_GetRxData
+                0x00000310        0x2 ./HAL/EF_ESP8266.o
+                0x00000310                EF_BOOLEAN_ESP8266_GetRxData
+ .text.EF_void_KeyPad_Init
+                0x00000312        0x2 ./HAL/EF_Keypad.o
+                0x00000312                EF_void_KeyPad_Init
+ .text.EF_u8_KeyPad_Scan
+                0x00000314        0x2 ./HAL/EF_Keypad.o
+                0x00000314                EF_u8_KeyPad_Scan
+ .text.EF_void_LCD_init
+                0x00000316        0x2 ./HAL/EF_LCD.o
+                0x00000316                EF_void_LCD_init
+ .text.EF_void_LCD_send_command
+                0x00000318        0x2 ./HAL/EF_LCD.o
+                0x00000318                EF_void_LCD_send_command
+ .text.EF_void_LCD_send_data
+                0x0000031a        0x2 ./HAL/EF_LCD.o
+                0x0000031a                EF_void_LCD_send_data
+ .text.EF_void_LCD_goto
+                0x0000031c        0x2 ./HAL/EF_LCD.o
+                0x0000031c                EF_void_LCD_goto
+ .text.EF_void_LCD_print_NUM
+                0x0000031e        0x2 ./HAL/EF_LCD.o
+                0x0000031e                EF_void_LCD_print_NUM
+ .text.EF_void_LCD_print
+                0x00000320        0x2 ./HAL/EF_LCD.o
+                0x00000320                EF_void_LCD_print
+ .text.EF_void_LCD_print_ByLength
+                0x00000322        0x2 ./HAL/EF_LCD.o
+                0x00000322                EF_void_LCD_print_ByLength
+ .text.EF_void_LCD_Clear_Screen
+                0x00000324        0x2 ./HAL/EF_LCD.o
+                0x00000324                EF_void_LCD_Clear_Screen
+ .text.EF_void_uploadCustomChar
+                0x00000326        0x2 ./HAL/EF_LCD.o
+                0x00000326                EF_void_uploadCustomChar
+ .text.EF_void_LCD_HextoASCII
+                0x00000328        0x2 ./HAL/EF_LCD.o
+                0x00000328                EF_void_LCD_HextoASCII
+ .text.EF_B_SkyLabGPS_Init
+                0x0000032a        0x2 ./HAL/EF_SkyLabGPS.o
+                0x0000032a                EF_B_SkyLabGPS_Init
+ .text.EF_B_SkyLabGPS_GetPosition
+                0x0000032c        0x2 ./HAL/EF_SkyLabGPS.o
+                0x0000032c                EF_B_SkyLabGPS_GetPosition
+ .text.EF_B_SkyLabGPS_PrintPosition
+                0x0000032e        0x2 ./HAL/EF_SkyLabGPS.o
+                0x0000032e                EF_B_SkyLabGPS_PrintPosition
+ .text.EF_UltraSonic_Init
+                0x00000330        0x2 ./HAL/EF_UltraSonic.o
+                0x00000330                EF_UltraSonic_Init
+ .text.EF_UltraSonic_GetDistance
+                0x00000332        0x2 ./HAL/EF_UltraSonic.o
+                0x00000332                EF_UltraSonic_GetDistance
+ .text.EF_BOOLEAN_Wavecom_InitModule
+                0x00000334        0x2 ./HAL/EF_Wavecom.o
+                0x00000334                EF_BOOLEAN_Wavecom_InitModule
+ .text.EF_BOOLEAN_Wavecom_InitSms
+                0x00000336        0x2 ./HAL/EF_Wavecom.o
+                0x00000336                EF_BOOLEAN_Wavecom_InitSms
+ .text.EF_BOOLEAN_Wavecom_SendSms
+                0x00000338        0x2 ./HAL/EF_Wavecom.o
+                0x00000338                EF_BOOLEAN_Wavecom_SendSms
+ .text.EF_S16_Wavecom_ReadSms
+                0x0000033a        0x2 ./HAL/EF_Wavecom.o
+                0x0000033a                EF_S16_Wavecom_ReadSms
+ .text.EF_BOOLEAN_Wavecom_InitCall
+                0x0000033c        0x2 ./HAL/EF_Wavecom.o
+                0x0000033c                EF_BOOLEAN_Wavecom_InitCall
+ .text.EF_BOOLEAN_Wavecom_Call
+                0x0000033e        0x2 ./HAL/EF_Wavecom.o
+                0x0000033e                EF_BOOLEAN_Wavecom_Call
+ .text.EF_BOOLEAN_Wavecom_CallAnswer
+                0x00000340        0x2 ./HAL/EF_Wavecom.o
+                0x00000340                EF_BOOLEAN_Wavecom_CallAnswer
+ .text.EF_BOOLEAN_Wavecom_CallRelease
+                0x00000342        0x2 ./HAL/EF_Wavecom.o
+                0x00000342                EF_BOOLEAN_Wavecom_CallRelease
+ .text.nRF_writeRegister
+                0x00000344        0x2 ./HAL/EF_nRF2401.o
+                0x00000344                nRF_writeRegister
+ .text.EF_void_nRF_init
+                0x00000346        0x2 ./HAL/EF_nRF2401.o
+                0x00000346                EF_void_nRF_init
+ .text.EF_void_nRF_TXSetup
+                0x00000348        0x2 ./HAL/EF_nRF2401.o
+                0x00000348                EF_void_nRF_TXSetup
+ .text.EF_BOOLEAN_nRF_SendData
+                0x0000034a        0x2 ./HAL/EF_nRF2401.o
+                0x0000034a                EF_BOOLEAN_nRF_SendData
+ .text.EF_BOOLEAN_nRF_RXSetup
+                0x0000034c        0x2 ./HAL/EF_nRF2401.o
+                0x0000034c                EF_BOOLEAN_nRF_RXSetup
+ .text.EF_BOOLEAN_nRF_GetData
+                0x0000034e        0x2 ./HAL/EF_nRF2401.o
+                0x0000034e                EF_BOOLEAN_nRF_GetData
+ .text.EF_u8_nRF_ReadRegister
+                0x00000350        0x2 ./HAL/EF_nRF2401.o
+                0x00000350                EF_u8_nRF_ReadRegister
+ .text.__vector_1
+                0x00000352       0x14 ./HAL/EF_nRF2401.o
+                0x00000352                __vector_1
+ .text.LCD_update_time
+                0x00000366       0xee ./main.o
+                0x00000366                LCD_update_time
+ .text.main     0x00000454       0x4c ./main.o
+                0x00000454                main
+ .text.libgcc   0x000004a0       0x18 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodqi4.o)
+                0x000004a0                __udivmodqi4
+ .text.libgcc   0x000004b8        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000004b8        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000004b8        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000004b8       0x28 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x000004b8                __udivmodhi4
+                0x000004e0                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000004e0        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                0x000004e0                exit
+                0x000004e0                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000004e0        0x4 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000004e4                _etext = .
+
+.data           0x00800060       0x14 load address 0x000004e4
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./MCAL/EF_ADC.o
+ .data          0x00800060        0x0 ./MCAL/EF_DIO.o
+ .data          0x00800060        0x0 ./MCAL/EF_EEPROM.o
+ .data          0x00800060        0x0 ./MCAL/EF_I2C.o
+ .data          0x00800060        0x0 ./MCAL/EF_InputCapture.o
+ .data          0x00800060        0x0 ./MCAL/EF_PWM.o
+ .data          0x00800060        0x0 ./MCAL/EF_SPI.o
+ .data          0x00800060        0x0 ./MCAL/EF_SpechialTIMER.o
+ .data          0x00800060        0x0 ./MCAL/EF_Timer.o
+ .data          0x00800060        0x0 ./MCAL/EF_UART.o
+ .data          0x00800060        0x0 ./HAL/EF_7Segment.o
+ .data          0x00800060        0x0 ./HAL/EF_Bluetooth.o
+ .data          0x00800060        0x0 ./HAL/EF_DS1307.o
+ .data          0x00800060        0x0 ./HAL/EF_E2PROM_24C16.o
+ .data          0x00800060        0x0 ./HAL/EF_ESP8266.o
+ .data          0x00800060        0x0 ./HAL/EF_Keypad.o
+ .data          0x00800060        0x0 ./HAL/EF_LCD.o
+ .data          0x00800060        0x0 ./HAL/EF_SkyLabGPS.o
+ .data          0x00800060        0x0 ./HAL/EF_UltraSonic.o
+ .data          0x00800060        0x0 ./HAL/EF_Wavecom.o
+ .data          0x00800060        0x0 ./HAL/EF_nRF2401.o
+ .data          0x00800060        0x0 ./main.o
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x00800060        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+ *(.data*)
+ .data.customArray
+                0x00800060        0x8 ./main.o
+                0x00800060                customArray
+ *(.rodata)
+ *(.rodata*)
+ .rodata.uart_reg
+                0x00800068        0xc ./MCAL/EF_UART.o
+                0x00800068                uart_reg
+ *(.gnu.linkonce.d*)
+                0x00800074                . = ALIGN (0x2)
+                0x00800074                _edata = .
+                0x00800074                PROVIDE (__data_end, .)
+
+.bss            0x00800074       0x7f
+                0x00800074                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800074        0x0 ./MCAL/EF_ADC.o
+ .bss           0x00800074        0x0 ./MCAL/EF_DIO.o
+ .bss           0x00800074        0x0 ./MCAL/EF_EEPROM.o
+ .bss           0x00800074        0x0 ./MCAL/EF_I2C.o
+ .bss           0x00800074        0x0 ./MCAL/EF_InputCapture.o
+ .bss           0x00800074        0x0 ./MCAL/EF_PWM.o
+ .bss           0x00800074        0x0 ./MCAL/EF_SPI.o
+ .bss           0x00800074        0x0 ./MCAL/EF_SpechialTIMER.o
+ .bss           0x00800074        0x0 ./MCAL/EF_Timer.o
+ .bss           0x00800074        0x0 ./MCAL/EF_UART.o
+ .bss           0x00800074        0x0 ./HAL/EF_7Segment.o
+ .bss           0x00800074        0x0 ./HAL/EF_Bluetooth.o
+ .bss           0x00800074        0x0 ./HAL/EF_DS1307.o
+ .bss           0x00800074        0x0 ./HAL/EF_E2PROM_24C16.o
+ .bss           0x00800074        0x0 ./HAL/EF_ESP8266.o
+ .bss           0x00800074        0x0 ./HAL/EF_Keypad.o
+ .bss           0x00800074        0x0 ./HAL/EF_LCD.o
+ .bss           0x00800074        0x0 ./HAL/EF_SkyLabGPS.o
+ .bss           0x00800074        0x0 ./HAL/EF_UltraSonic.o
+ .bss           0x00800074        0x0 ./HAL/EF_Wavecom.o
+ .bss           0x00800074        0x0 ./HAL/EF_nRF2401.o
+ .bss           0x00800074        0x0 ./main.o
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00800074        0x0 c:/winavr-20090313/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_udivmodhi4.o)
+ *(.bss*)
+ .bss.timers_list
+                0x00800074       0x3c ./MCAL/EF_SpechialTIMER.o
+ .bss.gSmsReadyFlag
+                0x008000b0        0x1 ./main.o
+                0x008000b0                gSmsReadyFlag
+ .bss.gRX_SMS   0x008000b1       0x32 ./main.o
+                0x008000b1                gRX_SMS
+ .bss.gNumberOfRxBytes
+                0x008000e3        0x2 ./main.o
+                0x008000e3                gNumberOfRxBytes
+ .bss.u8Counter
+                0x008000e5        0x1 ./main.o
+                0x008000e5                u8Counter
+ .bss.u16DigitalValue
+                0x008000e6        0x2 ./main.o
+                0x008000e6                u16DigitalValue
+ *(COMMON)
+ COMMON         0x008000e8        0x1 ./HAL/EF_SkyLabGPS.o
+                0x008000e8                ReturnFromGetPosition
+ COMMON         0x008000e9        0xa ./main.o
+                0x008000e9                Hours
+                0x008000ea                string
+                0x008000ef                temp
+                0x008000f1                Mintes
+                0x008000f2                Seconds
+                0x008000f3                PROVIDE (__bss_end, .)
+                0x000004e4                __data_load_start = LOADADDR (.data)
+                0x000004f8                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000f3        0x0
+                0x008000f3                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000f3                PROVIDE (__noinit_end, .)
+                0x008000f3                _end = .
+                0x008000f3                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(RedKitDrives_FreeImplement.elf elf32-avr)
+LOAD linker stubs
